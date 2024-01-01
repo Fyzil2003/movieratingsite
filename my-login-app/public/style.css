@@ -1,0 +1,265 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 1em;
+  }
+
+  
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.card {
+  
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid grey;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .movie-link {
+    text-decoration: none;
+    color: #333;
+  }
+
+  
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #222;
+  padding: 0 20px;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav a {
+  padding: 14px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#username-display{
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  padding: 14px 20px;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ... Your existing styles for form, input, button, etc. */
+
+
+  
+
+  
+.review-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(45deg, #151f30, #232d40);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#review-text {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.submit-review {
+  background: linear-gradient(45deg, #8e54e9, #4776e6);
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.submit-review:hover {
+  background: linear-gradient(45deg, #4776e6, #8e54e9);
+}
+
+#reviews-container {
+  margin-top: 20px;
+}
+
+.reviews-list {
+  list-style: none;
+  padding: 0;
+}
+
+.review {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.review:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.review p {
+  color: #000000; 
+}
+
+.back-to-home {
+  background: linear-gradient(45deg, #8e54e9, #4776e6);
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 25px auto; /* Center the button */
+}
+
+.back-to-home:hover {
+  background: linear-gradient(45deg, #4776e6, #8e54e9);
+}
+
+.rating-container {
+  margin-top: 20px;
+}
+
+.rating-input {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.submit-rating {
+  background: linear-gradient(45deg, #8e54e9, #4776e6);
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.submit-rating:hover {
+  background: linear-gradient(45deg, #4776e6, #8e54e9);
+}
+
+.average-rating {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* You may need to adjust the following styles based on your icon library and how you integrate it into your HTML */
+
+.star-icon {
+  color: #f39c12;
+  font-size: 18px;
+  margin-right: 5px;
+}
